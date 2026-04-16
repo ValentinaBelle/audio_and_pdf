@@ -1,8 +1,7 @@
 import moviepy
 from moviepy import VideoFileClip, TextClip
 
-# Fix filename (remove … and quotes issues)
-video = moviepy.VideoFileClip("Jesus… I’m Scared of My Future..mp4")
+video = moviepy.VideoFileClip("name of you file.mp4")
 audio = video.audio
 audio.write_audiofile("my_audio.mp3")
 
