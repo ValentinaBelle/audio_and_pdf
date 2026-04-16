@@ -1,0 +1,54 @@
+Byte-compiled / optimized / DLL files
+pycache/
+*.py[cod]
+*$py.class
+
+Virtual environment
+env/
+venv/
+.venv/
+
+Python packaging
+build/
+dist/
+eggs/
+.egg-info
+
+IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+OS files
+.DS_Store
+Thumbs.db
+
+Environment & credentials
+.env
+.env.*
+secrets.yaml
+*.pem
+*.key
+
+Media & generated files
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.mp4
+*.mov
+*.avi
+*.mkv
+my_audio.mp3
+
+ffmpeg / moviepy temp files
+.temp
+*.tmp
+.cache/
+moviepy-temp/
+
+Logs
+*.log
